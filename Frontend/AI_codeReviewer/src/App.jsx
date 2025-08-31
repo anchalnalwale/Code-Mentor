@@ -1,5 +1,5 @@
 import React from 'react';
-import CodeReviewer from './CodeReviewer';
+import CReview from './CReview';
 
 function App() {
   return (
