@@ -1,12 +1,10 @@
 import React from 'react';
 import CReview from './CReview';
 
-function App() {
+export default function Home() {
   return (
-    <div className="App">
+    <div className="home-page">
       <CReview />
     </div>
   );
 }
-
-export default App;
