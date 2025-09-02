@@ -3,7 +3,7 @@ import axios from 'axios';
 import './CReview.css';
 import Prism from 'prismjs';
 import "prismjs/themes/prism-tomorrow.css";
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -113,7 +113,7 @@ const CReview = () => {
         }
       });
       
-      setReview(response.data);
+      setReview(response.data.review);
       console.log('Review data received:', response.data);
     } catch (err) {
       setError('Error submitting code for review. Please try again later.');

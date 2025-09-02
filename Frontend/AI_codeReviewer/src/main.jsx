@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css'
 import App from './App.jsx'
 import axios from 'axios';
+import { HelmetProvider } from 'react-helmet-async';
 
 axios.defaults.baseURL = 'http://localhost:3000';
 axios.defaults.headers.common['Content-Type'] = 'application/json';
@@ -17,6 +18,8 @@ axios.interceptors.response.use(
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
   </React.StrictMode>,
 );
