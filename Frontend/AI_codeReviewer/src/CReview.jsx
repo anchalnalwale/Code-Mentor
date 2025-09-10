@@ -201,7 +201,7 @@ const CReview = () => {
   return (
 <>
 <Helmet>
-        <title>CodeGuardian - AI Code Review</title>
+        <title>CodeMentor - AI Code Review</title>
         <meta name="description" content="AI-Powered Code Review for Elite Developers" />
         <link rel="icon" type="image/png" sizes="32x32" href="/Logo.png" />
       </Helmet>
@@ -212,7 +212,7 @@ const CReview = () => {
             <span className="code-symbol">&lt;/&gt;</span>
             <span className="ai-dot">•</span>
           </div>
-          <h1>CodeGuardian</h1>
+          <h1>CodeMentor</h1>
         </div>
         <p className="tagline">AI-Powered Code Review for Elite Developers</p>
       </div>
@@ -311,7 +311,7 @@ const CReview = () => {
       )}
       
       <footer>
-        <p>© 2025 CodeGuardian. Empowering developers with AI-enhanced code reviews.</p>
+        <p>© 2025 CodeMentor. Empowering developers with AI-enhanced code reviews.</p>
       </footer>
     </div>
     </>
