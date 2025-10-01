@@ -38,7 +38,7 @@ The project is divided into **frontend** and **backend** components, making it e
 ---
 
 ## 🛠 Tech Stack
-- **Frontend**: JavaScript, HTML, TailwindCSS, React.js.
+- **Frontend**: JavaScript, HTML, CSS, React.js.
 - **Backend**: Node.js, Express.js 
 - **AI**: Gemini API 
 
